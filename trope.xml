@@ -15,7 +15,7 @@
 	]]></description>
 
 	<administration>
-		<menu>CPS</menu>
+		<menu>TrOpE</menu>
 		<submenu>
 
 			<menu controller="trablahador" task="listar">Listar Trabalhador</menu>
