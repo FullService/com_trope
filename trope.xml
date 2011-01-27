@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0" method="upgrade">
+	<name>TROPE</name>
+	<creationDate>27/01/2011</creationDate>
+	<author>Calros Delfino</author>
+	<authorEmail>consultoria@carlosdelfino.eti.br</authorEmail>
+	<authorUrl>www.carlosdelfino.eti.br</authorUrl>
+	<copyright>Copyright (c)2011 Calros Delfino - CSAT</copyright>
+	<license></license>
+	<version>0.0.1</version>
+	<description><![CDATA[
+	<h1>TrOpE</h1>
+	<p>Sistema de Relacionamento entre Trabalhador e Oportunidades de Emprego</p>
+	]]></description>
+
+	<administration>
+		<menu>CPS</menu>
+		<submenu>
+
+			<menu controller="trablahador" task="listar">Listar Trabalhador</menu>
+			<menu controller="contratante" task="listar">Listar Contratante</menu>
+			<menu controller="vaga" task="listar">Listar Vagas</menu>
+			<menu controller="historico" task="historico">Listar Historico</menu>
+
+			<menu controller="trabalhador" task="cadastrar">Cadastrar Trabalhador</menu>
+			<menu controller="contratante" task="cadastrar">Cadastrar Contratante</menu>
+			<menu controller="vaga" task="cadastrar">Cadastrar Vagas</menu>
+			<menu controller="historico" task="qualificar">Qualificação</menu>
+
+			<menu controller="configuracao" task="edit">Configurações</menu>
+
+		</submenu>
+
+	</administration>
+</install>
