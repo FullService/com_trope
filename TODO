@@ -1,0 +1,4 @@
+* Os Metodos bind nos Models devem ser transferidos para uma super classe
+ou então para um helper.
+
+* 
